@@ -1,0 +1,13 @@
+<div class="pa4 tc">
+  <div class="mat-h1">Dev Profile</div>
+  <div class="mat-body">
+    <a
+      *ngFor="let route of routes"
+      routerLink="{{ route.routerLink }}"
+      routerLinkActive="active"
+      ><span class="pl4">
+        {{ route.name }}
+      </span></a
+    >
+  </div>
+</div>
